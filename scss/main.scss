@@ -1,0 +1,8 @@
+@import 'basic';
+@import 'variables';
+
+
+body{
+    background-color: $bg-color;
+    @include googleText;
+}
